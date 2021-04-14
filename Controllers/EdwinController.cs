@@ -18,7 +18,7 @@ namespace AzureProject.Controllers
             _logger = logger;
         }
 
-        public IActionResult Edwin()
+        public IActionResult Index()
         {
             return View();
         }
