@@ -12,5 +12,10 @@ namespace ProjektArbeteAzure.Controllers
         {
             return View();
         }
+        public IActionResult Enquiry()
+        {
+            string test = "halooooo";
+            return View(test);
+        }
     }
 }
