@@ -2,9 +2,12 @@
 
   <PropertyGroup>
     <TargetFramework>netcoreapp3.1</TargetFramework>
+    <UserSecretsId>c75bf965-7960-4577-9670-bd6873b7e794</UserSecretsId>
+    <ApplicationInsightsResourceId>/subscriptions/daa2efc0-7738-453b-a104-b06a1a25b1e8/resourceGroups/EdwinTest/providers/microsoft.insights/components/edwinazure3</ApplicationInsightsResourceId>
   </PropertyGroup>
 
   <ItemGroup>
+    <PackageReference Include="Microsoft.ApplicationInsights.AspNetCore" Version="2.15.0" />
     <PackageReference Include="Microsoft.VisualStudio.Web.CodeGeneration.Design" Version="3.1.5" />
   </ItemGroup>
 
