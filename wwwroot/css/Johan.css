@@ -138,7 +138,7 @@
 .skill-list li {
     position: relative;
     list-style-type: none;
-    padding-left: 2.5rem;
+    padding-left: 1.5rem;
     margin-bottom: 0.5rem;
 }
 
@@ -156,31 +156,89 @@
     transform-origin: bottom left;
     transform: rotate(45deg);
 }
-
-.links {
-    list-style-type: none;
-    margin: 0;
-    padding: 0;
-    font: 200 20px/1.5 Helvetica, Verdana, sans-serif;
-    border-bottom: 1px solid #ccc;
+.links{
+    width: 300px;
 }
 
-.links:last-child {
-    border: none;
-}
-
-.links a {
+.tesla {
+    background-color: #EEEEEE;
+    padding: 8px 20px;
     text-decoration: none;
-    color: #000;
-    display: block;
-    width: 200px;
-    -webkit-transition: font-size 0.3s ease, background-color 0.3s ease;
-    -moz-transition: font-size 0.3s ease, background-color 0.3s ease;
-    -o-transition: font-size 0.3s ease, background-color 0.3s ease;
-    transition: font-size 0.3s ease, background-color 0.3s ease;
+    font-weight: bold;
+    border-radius: 10px;
+    cursor: pointer;
+    list-style-type: none;
 }
 
-.links a:hover {
-    font-size: 30px;
-    background: #f6f6f6;
+.tesla:hover {
+    background-color: rgba(0, 0, 0, 0.3);
+}
+
+.neuralink {
+    background-color: #EEEEEE;
+    padding: 8px 20px;
+    text-decoration: none;
+    font-weight: bold;
+    border-radius: 10px;
+    cursor: pointer;
+    list-style-type: none;
+}
+
+.neuralink:hover {
+    background-color: rgba(0, 0, 0, 0.3);
+}
+
+.spacex {
+    background-color: #EEEEEE;
+    padding: 8px 20px;
+    text-decoration: none;
+    font-weight: bold;
+    border-radius: 10px;
+    cursor: pointer;
+    list-style-type: none;
+}
+
+.spacex:hover {
+    background-color: rgba(0, 0, 0, 0.3);
+}
+.nasa {
+    background-color: #EEEEEE;
+    padding: 8px 20px;
+    text-decoration: none;
+    font-weight: bold;
+    border-radius: 10px;
+    cursor: pointer;
+    list-style-type: none;
+}
+
+.nasa:hover {
+    background-color: rgba(0, 0, 0, 0.3);
+}
+
+.google {
+    background-color: #EEEEEE;
+    padding: 8px 20px;
+    text-decoration: none;
+    font-weight: bold;
+    border-radius: 10px;
+    cursor: pointer;
+    list-style-type: none;
+}
+
+.google:hover {
+    background-color: rgba(0, 0, 0, 0.3);
+}
+
+.nsa {
+    background-color: #EEEEEE;
+    padding: 8px 20px;
+    text-decoration: none;
+    font-weight: bold;
+    border-radius: 10px;
+    cursor: pointer;
+    list-style-type: none;
+}
+
+.nsa:hover {
+    background-color: rgba(0, 0, 0, 0.3);
 }
