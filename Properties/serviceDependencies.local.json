@@ -4,7 +4,7 @@
       "type": "secrets.user"
     },
     "appInsights1": {
-      "resourceId": "/subscriptions/[parameters('subscriptionId')]/resourceGroups/[parameters('resourceGroupName')]/providers/microsoft.insights/components/edwinazure3",
+      "resourceId": "/subscriptions/[parameters('subscriptionId')]/resourceGroups/[parameters('resourceGroupName')]/providers/microsoft.insights/components/projectazure3",
       "type": "appInsights.azure",
       "connectionId": "APPINSIGHTS_CONNECTIONSTRING",
       "secretStore": "LocalSecretsFile"

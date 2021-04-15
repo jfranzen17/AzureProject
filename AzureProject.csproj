@@ -2,8 +2,11 @@
 
   <PropertyGroup>
     <TargetFramework>netcoreapp3.1</TargetFramework>
-    <UserSecretsId>c75bf965-7960-4577-9670-bd6873b7e794</UserSecretsId>
-    <ApplicationInsightsResourceId>/subscriptions/daa2efc0-7738-453b-a104-b06a1a25b1e8/resourceGroups/EdwinTest/providers/microsoft.insights/components/edwinazure3</ApplicationInsightsResourceId>
+
+    <UserSecretsId>ef56142e-6e09-450e-a9c7-bcb256b11bd2</UserSecretsId>
+    <ApplicationInsightsResourceId>/subscriptions/daa2efc0-7738-453b-a104-b06a1a25b1e8/resourceGroups/JohanTest/providers/microsoft.insights/components/projectazure3</ApplicationInsightsResourceId>
+
+
   </PropertyGroup>
 
   <ItemGroup>
