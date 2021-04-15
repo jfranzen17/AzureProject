@@ -1,29 +1,46 @@
 ﻿body {
 }
 
-.flex-container{
+.flex-container {
     display: flex;
+    overflow: hidden;
 }
 .checked {
     color: orange;
 }
 
+.my-skills {
+    margin: 1em 0 0.5em 0;
+    color: #343434;
+    font-weight: normal;
+    font-family: 'Ultra', sans-serif;
+    font-size: 36px;
+    line-height: 42px;
+    text-transform: uppercase;
+    text-shadow: 0 2px white, 0 3px #777;
+}
+.pemp {
+    margin: 1em 0 0.5em 0;
+    color: #343434;
+    font-weight: normal;
+    font-family: 'Ultra', sans-serif;
+    font-size: 36px;
+    line-height: 42px;
+    text-transform: uppercase;
+    text-shadow: 0 2px white, 0 3px #777 
+}
+
 .skills {
     float: left;
-    width: 20%;
-    overflow: hidden;
+    width: 25%;
+    overflow: hidden; 
 }
 
-.stars {
-    overflow: hidden;
-    width: 20%;
-}
 
 .previous {
-    overflow: hidden;
     float: right;
     width: 40%;
-    margin-left: 100px;
+    margin-left: 500px;
 }
 
 .container-shadow {
@@ -46,7 +63,7 @@
     transition: all 0.25s ease-out;
 }
 
-.box-1 {
+.btn-box {
     height: 33.33%;
     width: 100%;
     display: flex;
@@ -114,3 +131,114 @@
     transform: scale(0.1, 1);
 }
 
+.skill-list {
+    margin: 0;
+    padding-left: 1.2rem;
+}
+.skill-list li {
+    position: relative;
+    list-style-type: none;
+    padding-left: 1.5rem;
+    margin-bottom: 0.5rem;
+}
+
+.skill-list li:before {
+    content: '';
+    display: block;
+    position: absolute;
+    left: 0;
+    top: -2px;
+    width: 5px;
+    height: 11px;
+    border-width: 0 2px 2px 0;
+    border-style: solid;
+    border-color: #00a8a8;
+    transform-origin: bottom left;
+    transform: rotate(45deg);
+}
+.links{
+    width: 300px;
+}
+
+.tesla {
+    background-color: #EEEEEE;
+    padding: 8px 20px;
+    text-decoration: none;
+    font-weight: bold;
+    border-radius: 10px;
+    cursor: pointer;
+    list-style-type: none;
+}
+
+.tesla:hover {
+    background-color: rgba(0, 0, 0, 0.3);
+}
+
+.neuralink {
+    background-color: #EEEEEE;
+    padding: 8px 20px;
+    text-decoration: none;
+    font-weight: bold;
+    border-radius: 10px;
+    cursor: pointer;
+    list-style-type: none;
+}
+
+.neuralink:hover {
+    background-color: rgba(0, 0, 0, 0.3);
+}
+
+.spacex {
+    background-color: #EEEEEE;
+    padding: 8px 20px;
+    text-decoration: none;
+    font-weight: bold;
+    border-radius: 10px;
+    cursor: pointer;
+    list-style-type: none;
+}
+
+.spacex:hover {
+    background-color: rgba(0, 0, 0, 0.3);
+}
+.nasa {
+    background-color: #EEEEEE;
+    padding: 8px 20px;
+    text-decoration: none;
+    font-weight: bold;
+    border-radius: 10px;
+    cursor: pointer;
+    list-style-type: none;
+}
+
+.nasa:hover {
+    background-color: rgba(0, 0, 0, 0.3);
+}
+
+.google {
+    background-color: #EEEEEE;
+    padding: 8px 20px;
+    text-decoration: none;
+    font-weight: bold;
+    border-radius: 10px;
+    cursor: pointer;
+    list-style-type: none;
+}
+
+.google:hover {
+    background-color: rgba(0, 0, 0, 0.3);
+}
+
+.nsa {
+    background-color: #EEEEEE;
+    padding: 8px 20px;
+    text-decoration: none;
+    font-weight: bold;
+    border-radius: 10px;
+    cursor: pointer;
+    list-style-type: none;
+}
+
+.nsa:hover {
+    background-color: rgba(0, 0, 0, 0.3);
+}
